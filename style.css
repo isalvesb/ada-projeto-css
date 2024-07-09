@@ -1,5 +1,5 @@
 img {
-  width: 300px;
+  width: 400px;
   height: 300px;
 }
 
@@ -81,7 +81,7 @@ main form label {
   font-weight: 400;
   text-transform: lowercase;
   margin-bottom: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   display: block;
 }
 
@@ -120,7 +120,6 @@ main form input,
 main form select {
   width: 48.9rem;
   height: 5.5rem;
-
   background: #fff;
   border: var(--default-color);
   border-radius: 1.2rem;
@@ -142,11 +141,11 @@ main form .select-div::after {
   font-weight: 600;
   font-size: 2.2rem;
   content: "\f103";
-  font-family: "Font Awesome Free 6 Free";
+  font-family: "Font Awesome 6 Free";
   color: #35e6e9;
 }
 
-main form input + button {
+main form input + button-type {
   position: absolute;
   right: -3.7rem;
   top: calc(1.5rem + 3rem);
@@ -154,6 +153,7 @@ main form input + button {
   border: none;
   color: #35e6e9;
   font-size: 2.4rem;
+  font-family: "Font Awesome 6 Free";
 }
 
 main header {
@@ -172,6 +172,6 @@ main header i {
 }
 
 main label div select i {
-    color: #35e6e9;
-    font-size: 2.6rem;
+  color: #35e6e9;
+  font-size: 2.6rem;
 }
